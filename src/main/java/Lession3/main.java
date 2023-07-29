@@ -1,7 +1,5 @@
 package Lession3;
 
-import java.sql.SQLOutput;
-
 public class main {
     public static void main(String[] args) {
         Seat seat1 = new Seat(2, 5);
@@ -25,6 +23,28 @@ public class main {
         System.out.println("Year of production: " + movie1.getYearOfProduction());
 
         System.out.println(movie1);
+
+
+        Employee employee1 = new Employee("John", 2017);
+        manager manager1 = new manager("Sam", 2008);
+        TicketSeller ticketSeller1 = new TicketSeller("Selina", 2015);
+
+        System.out.println("the name of employee: " + employee1.getName());
+        System.out.println("The amount of basic salary: " + employee1.getBasicSalary());
+        System.out.println("The employment year: " + employee1.getEmploymentYear());
+        System.out.println("The total monthly salary: " + employee1.getTotalMonthlySalary());
+
+
+        System.out.println("the name of manager: " + manager1.getName());
+        System.out.println("The amount of basic salary: " + manager1.getBasicSalary());
+        System.out.println("The employment year: " + manager1.getEmploymentYear());
+        System.out.println("The total monthly salary: " + manager1.getTotalMonthlySalary());
+
+
+        System.out.println("the name of ticketSeller: " + ticketSeller1.getName());
+        System.out.println("The amount of basic salary: " + ticketSeller1.getBasicSalary());
+        System.out.println("The employment year: " + ticketSeller1.getEmploymentYear());
+        System.out.println("The total monthly salary: " + ticketSeller1.getTotalMonthlySalary());
     }
 
 
