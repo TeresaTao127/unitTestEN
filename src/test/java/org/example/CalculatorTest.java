@@ -44,9 +44,9 @@ class CalculatorTest {
 
     @org.junit.jupiter.api.Test
     void divideTwoNumber() {
-        int numberA = 8;
-        int numberB = 4;
-        double expectedResult = 2;
+        double numberA = 8;
+        double numberB = 5;
+        double expectedResult = 1.6;
 
         double result = Calculator.divide(numberA, numberB);
 

@@ -18,7 +18,7 @@ public class Calculator {
         return multiply;
     }
 
-    public static double divide(int numberA, int numberB) {
+    public static double divide(double numberA, double numberB) {
         double quotient = numberA / numberB;
         return quotient;
     }
