@@ -1,15 +1,16 @@
 package Lession3;
 
-public class seat {
+public class Seat {
     private final int seatNumber;
     private final int rowNumber;
 
     private boolean occupied;
 
-    public seat(int seatNumber, int rowNumber) {
+    public Seat(int seatNumber, int rowNumber) {
         this.seatNumber = seatNumber;
         this.rowNumber = rowNumber;
         this.occupied=false;
+
     }
 
     public int getSeatNumber(){
@@ -25,11 +26,6 @@ public class seat {
         return occupied;
     }
 
-    public void occupy(){
-        this.occupied=true;
-    }
 
-    public void release(){
-        this.occupied=false;
-    }
+
 }
