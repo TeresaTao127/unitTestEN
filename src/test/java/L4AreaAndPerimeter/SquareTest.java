@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SquareTest {
 
     @Test
-    void getArea() {
+    void shouldReturnProperAreaOfASquare() {
         Square square1=new Square(6);
         double expectedResult=36;
         double result=square1.getArea();
@@ -16,7 +16,7 @@ class SquareTest {
     }
 
     @Test
-    void getPerimeter() {
+    void shouldReturnProperPerimeterOfASquare() {
         Square square1=new Square(7);
         double expectedResult=28;
         double result=square1.getPerimeter();

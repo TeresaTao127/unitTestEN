@@ -1,6 +1,6 @@
 package L4AreaAndPerimeter;
 
-public class Rectangle implements calculatingAreaAndPerimeter {
+public class Rectangle implements FigureCalculations {
     double a;
     double b;
 

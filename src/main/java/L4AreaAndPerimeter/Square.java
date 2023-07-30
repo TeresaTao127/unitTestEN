@@ -1,6 +1,6 @@
 package L4AreaAndPerimeter;
 
-public class Square implements calculatingAreaAndPerimeter {
+public class Square implements FigureCalculations {
     double side;
 
     public Square(double side) {
