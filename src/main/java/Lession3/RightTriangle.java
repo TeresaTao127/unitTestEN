@@ -1,6 +1,6 @@
 package Lession3;
 
-public class rightTriangle {
+public class RightTriangle {
     public static boolean isRightTriangle(int a, int b, int c) {
         int aSquared = a * a;
         int bSquared = b * b;

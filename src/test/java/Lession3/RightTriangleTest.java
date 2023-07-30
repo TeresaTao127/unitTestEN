@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class rightTriangleTest {
+class RightTriangleTest {
 
     @Test
     void isRightTriangle() {
-        assertTrue(rightTriangle.isRightTriangle(3, 4, 5));
+        assertTrue(RightTriangle.isRightTriangle(3, 4, 5));
     }
 }
