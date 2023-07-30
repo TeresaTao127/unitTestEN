@@ -7,6 +7,6 @@ public class ConsoleMessage extends Message {
 
     @Override
     public String getMessage() {
-        return "ConsoleMessage";
+        return "ConsoleMessage class";
     }
 }
