@@ -1,7 +1,7 @@
 package Lession3;
 
-public class timeConverter {
-    public static double MinutesIntoSeconds(double minutes) {
+public class TimeConverter {
+    public static double minutesIntoSeconds(double minutes) {
         double seconds;
         return seconds = 60 * minutes;
 

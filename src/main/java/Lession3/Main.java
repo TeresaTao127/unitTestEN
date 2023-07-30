@@ -26,7 +26,7 @@ public class Main {
 
 
         Employee employee1 = new Employee("John", 2017);
-        manager manager1 = new manager("Sam", 2008);
+        Manager manager1 = new Manager("Sam", 2008);
         TicketSeller ticketSeller1 = new TicketSeller("Selina", 2015);
 
         System.out.println("the name of employee: " + employee1.getName());

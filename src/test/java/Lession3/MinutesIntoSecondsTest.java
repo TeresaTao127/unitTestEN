@@ -10,7 +10,7 @@ class MinutesIntoSecondsTest {
         double minutes=2.5;
         double expectedSeconds=150;
 
-        double result= timeConverter.MinutesIntoSeconds(2.5);
+        double result= TimeConverter.minutesIntoSeconds(2.5);
         Assertions.assertEquals(expectedSeconds,result);
     }
 }

@@ -1,9 +1,9 @@
 package Lession3;
 
-public class manager extends Employee {
+public class Manager extends Employee {
 
     int monthlyBonus;
-    public manager(String name, int employmentYear) {
+    public Manager(String name, int employmentYear) {
         super(name, employmentYear);
         this.basicSalary=5000;
         this.monthlyBonus=500;
