@@ -1,6 +1,6 @@
 package org.example;
 
-public class ageVerification {
+public class AgeVerification {
 
         public static boolean isAdult(int age) {
             return age >= 18;
