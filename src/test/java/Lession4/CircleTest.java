@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CircleTest {
 
     @Test
-    void getArea() {
+    void shouldReturnProperAreaOfACircle() {
         Circle circle1 = new Circle(1);
         double expectedResult = Math.PI;
         double result = circle1.getArea();
@@ -17,7 +17,7 @@ class CircleTest {
     }
 
     @Test
-    void getPerimeter() {
+    void shouldReturnProperPerimeterOfACircle() {
         Circle circle1 = new Circle(1);
         double expectedResult = 2*Math.PI;
         double result = circle1.getPerimeter();

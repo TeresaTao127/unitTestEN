@@ -1,6 +1,6 @@
 package Lession4;
 
-public class Square extends shape {
+public class Square extends Shape {
 
 
     double side;

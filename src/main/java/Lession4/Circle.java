@@ -1,6 +1,6 @@
 package Lession4;
 
-public class Circle extends shape {
+public class Circle extends Shape {
     double radius;
 
     public Circle(double radius) {

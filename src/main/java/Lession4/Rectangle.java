@@ -1,6 +1,6 @@
 package Lession4;
 
-public class Rectangle extends shape {
+public class Rectangle extends Shape {
     double a;
     double b;
 

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class RectangleTest {
 
     @Test
-    void getArea() {
+    void shouldReturnProperAreaOfARectangle() {
         Rectangle rectangle1 = new Rectangle(6,8);
         double expectedResult = 48;
         double result = rectangle1.getArea();
@@ -17,7 +17,7 @@ class RectangleTest {
     }
 
     @Test
-    void getPerimeter() {
+    void shouldReturnProperPerimeterOfARectangle() {
         Rectangle rectangle1 = new Rectangle(7,8);
         double expectedResult = 30;
         double result = rectangle1.getPerimeter();
