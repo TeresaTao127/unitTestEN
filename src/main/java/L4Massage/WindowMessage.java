@@ -9,4 +9,5 @@ public class WindowMessage extends Message {
     public String getMessage() {
         return "WindowMessage class";
     }
+
 }
