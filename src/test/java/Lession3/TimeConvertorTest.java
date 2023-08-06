@@ -1,16 +1,17 @@
 package Lession3;
 
+import Lession3.L3TimeConvertor.TimeConvertor;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class MinutesIntoSecondsTest {
+class TimeConvertorTest {
 
     @Test
     void minutesIntoSeconds() {
-        double minutes=2.5;
-        double expectedSeconds=150;
+        double minutes=3;
+        double expectedSeconds=180;
 
-        double result= TimeConverter.minutesIntoSeconds(2.5);
+        double result= TimeConvertor.minutesIntoSeconds(3);
         Assertions.assertEquals(expectedSeconds,result);
     }
 }
