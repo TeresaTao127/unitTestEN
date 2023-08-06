@@ -12,9 +12,9 @@ public class Triangle {
     @Override
     public String toString() {
         return "Triangle{" +
-                "width=" + width +
-                ", height=" + height +
-                '}';
+                "width=<" + width +
+                ">, height=<" + height +
+                ">}";
     }
 
 
