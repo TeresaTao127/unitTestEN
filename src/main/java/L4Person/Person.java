@@ -27,13 +27,5 @@ public class Person {
         return Objects.hash(name, age, gender, nationality);
     }
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", gender='" + gender + '\'' +
-                ", nationality='" + nationality + '\'' +
-                '}';
-    }
+
 }
