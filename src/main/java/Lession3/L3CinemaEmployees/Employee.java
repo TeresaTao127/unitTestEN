@@ -1,6 +1,6 @@
-package Lession3;
+package Lession3.L3CinemaEmployees;
 
-public class Employee {
+public abstract class Employee {
 
     String name;
     int basicSalary;
@@ -22,12 +22,11 @@ public class Employee {
         return basicSalary;
     }
 
-    public int getEmploymentYear() {
+    public final int getEmploymentYear() {
         int currentYear = 2023;
         return currentYear - employmentYear;
     }
 
-    public int getTotalMonthlySalary() {
-        return basicSalary;
-    }
+    public abstract int getTotalMonthlySalary();
+
 }
