@@ -1,10 +1,10 @@
 package L4UppercaseAndLowercaseLetters;
 
-public class Class1 implements TextFormatter {
+public class LettersUppercase implements TextFormatter {
 
     String text;
 
-    public Class1(String text) {
+    public LettersUppercase(String text) {
         this.text = text;
     }
 
