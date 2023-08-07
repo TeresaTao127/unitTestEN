@@ -1,17 +1,16 @@
 package org.example;
 
-import org.example.AgeVerification;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AgeVerificationTest {
 
     @Test
-    void isAgeGreaterThanOrEqualTo18() {
+    void isAdult() {
 
 
-            assertTrue(AgeVerification.isAgeGreaterThanOrEqualTo18(18));
+        assertTrue(AgeVerification.isAdult(18));
 
         }
 
