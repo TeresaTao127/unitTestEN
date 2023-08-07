@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class FileUtils {
-    public static String readFileFromPath(String filePath1) {
+    public static String readFromFile(String filePath1) {
         String content1=null;
         try {
             content1 = Files.readString(Path.of(filePath1));
@@ -16,5 +16,14 @@ public class FileUtils {
 //            throw new RuntimeException(e);
         }
         return content1;
+    }
+
+    public static void writeToFile(String pathToFile, String text) {
+        try {
+            Files.writeString(Path.of(pathToFile), text);
+        } catch (IOException exception) {
+            System.out.println("problem with saving a file!! " +exception.getMessage() );
+//            exception.printStackTrace();
+        }
     }
 }
